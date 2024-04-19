@@ -1,0 +1,8 @@
+version: pipelines/v0.1
+name: Fishbowl
+timeout: 0
+max_retries: 0
+data_components:
+- tap-fishbowl
+- Warehouse
+- dbt
